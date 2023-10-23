@@ -34,7 +34,6 @@ jobs:
                 command: |
                     tox
 
-#--service <f3573265-3e08-4cef-b8ed-c59dc89496fd>
     deploy_app_to_railway:
         <<: *defaults
         steps:
@@ -46,7 +45,7 @@ jobs:
             - run: npm i -g @railway/cli
             - run:
                 name: Deploy to Railway App (You must set RAILWAY_TOKEN env var)
-                command: |
+                command: | #--service <f3573265-3e08-4cef-b8ed-c59dc89496fd>
                     cd ci_and_publishing/houseprice_api && railway up --detach
 
     test_and_upload_regression_model:
