@@ -1,0 +1,30 @@
+name: train
+run_id: commands[0]
+env COMSPEC: C:\Windows\system32\cmd.exe
+env NUMBER_OF_PROCESSORS: 16
+env PATHEXT: .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+env PROCESSOR_ARCHITECTURE: AMD64
+env PROGRAMDATA: C:\ProgramData
+env PROGRAMFILES: C:\Program Files
+env PROGRAMFILES(X86): C:\Program Files (x86)
+env SYSTEMDRIVE: C:
+env SYSTEMROOT: C:\Windows
+env TEMP: C:\Users\KIMSTA~1\AppData\Local\Temp
+env TMP: C:\Users\KIMSTA~1\AppData\Local\Temp
+env USERPROFILE: C:\Users\Kim Stanislav
+env PATH: C:\AI_Courses_KV_DW_JL_5\ML_deployments\Production_model_package\.tox\test_package\Scripts;C:\Users\Kim Stanislav\anaconda3\envs\ml_deployment;C:\Users\Kim Stanislav\anaconda3\envs\ml_deployment\Library\mingw-w64\bin;C:\Users\Kim Stanislav\anaconda3\envs\ml_deployment\Library\usr\bin;C:\Users\Kim Stanislav\anaconda3\envs\ml_deployment\Library\bin;C:\Users\Kim Stanislav\anaconda3\envs\ml_deployment\Scripts;C:\Users\Kim Stanislav\anaconda3\envs\ml_deployment\bin;C:\Users\Kim Stanislav\anaconda3\condabin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\libnvvp;.;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\NVIDIA Corporation\Nsight Compute 2020.3.0;C:\Users\Kim Stanislav\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.6.10-hotspot\bin;C:\Users\Kim Stanislav\AppData\Local\Microsoft\WindowsApps;C:\Users\Kim Stanislav\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Kim Stanislav\AppData\Local\GitHubDesktop\bin;"C:\Windows\system32;C:\Windows\System32\Wbem"
+env PYTHONHASHSEED: 928
+env PIP_DISABLE_PIP_VERSION_CHECK: 1
+env PYTHONIOENCODING: utf-8
+env PYTHONPATH: .
+env TOX_ENV_NAME: train
+env TOX_WORK_DIR: C:\AI_Courses_KV_DW_JL_5\ML_deployments\Production_model_package\.tox
+env TOX_ENV_DIR: C:\AI_Courses_KV_DW_JL_5\ML_deployments\Production_model_package\.tox\test_package
+env VIRTUAL_ENV: C:\AI_Courses_KV_DW_JL_5\ML_deployments\Production_model_package\.tox\test_package
+env COLUMNS: 120
+env LINES: 30
+metadata pid: 31600
+cwd: C:\AI_Courses_KV_DW_JL_5\ML_deployments\Production_model_package
+allow: C:\AI_Courses_KV_DW_JL_5\ML_deployments\Production_model_package\.tox\test_package\Scripts\*:train
+cmd: python regression_model/train_pipeline.py
+exit_code: 0
